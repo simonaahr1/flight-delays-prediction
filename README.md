@@ -13,38 +13,71 @@ The modeling approach uses three ml models — Linear Regression, XGBoost, and a
 # Project Structure
 
 flight-delays-prediction/
+
 │
+
 ├── data/
+
 │   ├── airlines.csv
+
 │   ├── airports.csv
+
 │   ├── flights_train.csv
+
 │   ├── flights_train_cleaned.csv
+
 │   ├── flights_train_filtered.csv
+
 │   ├── flights_test.csv
+
 │   ├── flights_test_cleaned.csv
+
 │   └── test_predictions.csv
+
 │
+
 ├── encoders/
+
 │   ├── onehot_encoder.pkl
+
 │   └── onehot_encoder_without_outliers.pkl
+
 │
+
 ├── models/
+
 │   ├── linear_model.joblib
+
 │   ├── linear_model_without_outliers.joblib
+
 │   ├── nn_model.joblib
+
 │   ├── nn_model_without_outliers.joblib
+
 │   ├── xgboost_model.joblib
+
 │   └── xgboost_model_without_outliers.joblib
+
 │
+
 ├── plots/
+
 │   └── ... (diagnostic plots for all models)
+
 │
+
 ├── main.py
+
 ├── models.py
+
 ├── pipeline.py
+
 ├──FlightDelaysPrediction.ipynb
+
 ├── .gitignore
+
 ├── LICENSE
+
 └── README.md
 
 
