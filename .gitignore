@@ -172,3 +172,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Data science
+data/
+models/
+encoders/
+plots/
+*.joblib
+*.h5
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
