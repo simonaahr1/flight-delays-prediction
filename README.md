@@ -1,4 +1,10 @@
 # flight-delays-prediction
+You need to create the following directories: 
+- data/ -> store the data here
+- encoders/ -> leave it empty. Here the encoders will be stored after the main.py is executed
+- models/ -> leave it empty. Here the models will be stored after the main.py is executed
+- plots/ -> leave it empty. Here the plots will be stored after the main.py is executed
+
 Machine learning pipeline for predicting US flight arrival delays
 Flight Delays Prediction
 Predicting US domestic flight arrival delays using machine learning and feature engineering.
