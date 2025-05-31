@@ -190,3 +190,9 @@ plots/
 # Mac/Windows
 .DS_Store
 Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
